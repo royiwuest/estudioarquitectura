@@ -1,0 +1,44 @@
+
+h1{
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+
+.manifiesto{
+    margin-top: 50px;
+    text-align:justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.manifiesto-texto{
+    width: 80%;
+}
+
+
+h2{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 3rem;
+    text-align: center;
+}
+.logo-wp{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    background-position: center center;
+    background-size: contain;
+    position: fixed;
+    margin-left: 80%;
+    bottom: 20px;
+}
+.img-wp{
+    height: 100%;
+    width: 100%;
+}

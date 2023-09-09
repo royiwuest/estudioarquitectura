@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+/* @media(min-width:720px){
+
+} */
+
+html{
+    font-size: 62,5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    min-height: 80vh;
+}
+// Animacion - Animista
+.shadow-drop-tl{-webkit-animation:shadow-drop-tl .4s cubic-bezier(.25,.46,.45,.94) both;animation:shadow-drop-tl .4s cubic-bezier(.25,.46,.45,.94) both}
+@-webkit-keyframes shadow-drop-tl{0%{-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-box-shadow:-12px -12px 20px -12px rgba(0,0,0,.35);box-shadow:-12px -12px 20px -12px rgba(0,0,0,.35)}}@keyframes shadow-drop-tl{0%{-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-box-shadow:-12px -12px 20px -12px rgba(0,0,0,.35);box-shadow:-12px -12px 20px -12px rgba(0,0,0,.35)}}
+
+.focus-in-contract{-webkit-animation:focus-in-contract .7s cubic-bezier(.25,.46,.45,.94) both;animation:focus-in-contract .7s cubic-bezier(.25,.46,.45,.94) both}
+@-webkit-keyframes focus-in-contract{0%{letter-spacing:1em;-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes focus-in-contract{0%{letter-spacing:1em;-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}

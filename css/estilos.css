@@ -1,3 +1,89 @@
+.card-clientes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.card-cliente {
+  margin: 10px;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* @media(min-width:720px){
+
+} */
+html {
+  font-size: 62, 5%;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  min-height: 80vh;
+}
+
+.shadow-drop-tl {
+  -webkit-animation: shadow-drop-tl 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: shadow-drop-tl 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes shadow-drop-tl {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 transparent;
+    box-shadow: 0 0 0 0 transparent;
+  }
+  100% {
+    -webkit-box-shadow: -12px -12px 20px -12px rgba(0, 0, 0, 0.35);
+    box-shadow: -12px -12px 20px -12px rgba(0, 0, 0, 0.35);
+  }
+}
+@keyframes shadow-drop-tl {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 transparent;
+    box-shadow: 0 0 0 0 transparent;
+  }
+  100% {
+    -webkit-box-shadow: -12px -12px 20px -12px rgba(0, 0, 0, 0.35);
+    box-shadow: -12px -12px 20px -12px rgba(0, 0, 0, 0.35);
+  }
+}
+.focus-in-contract {
+  -webkit-animation: focus-in-contract 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: focus-in-contract 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes focus-in-contract {
+  0% {
+    letter-spacing: 1em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-contract {
+  0% {
+    letter-spacing: 1em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
 footer {
   background-color: #4B83A6;
   color: whitesmoke;
@@ -84,16 +170,8 @@ h2 {
   width: 100%;
 }
 
-.card-clientes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 100px;
-}
-
-.card-cliente {
-  margin: 10px;
-  text-align: center;
+.img-carousel {
+  height: 100%;
 }
 
 .card-equipo {
@@ -114,10 +192,6 @@ h2 {
 
 .card-align {
   text-align: justify;
-}
-
-.img-carousel {
-  height: 100%;
 }
 
 /*# sourceMappingURL=estilos.css.map */

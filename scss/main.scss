@@ -1,9 +1,7 @@
-@use 'footer';
-@use 'header';
-@use 'colores';
-@use 'index';
-@use 'clientes';
-@use 'sobreNosotros';
-@use 'proyectos';
-@use 'comun';
-
+@use 'partials/clientes';
+@use 'partials/comun';
+@use 'partials/footer';
+@use 'partials/header';
+@use 'partials/index';
+@use 'partials/proyectos';
+@use 'partials/sobreNosotros';
